@@ -9,7 +9,7 @@ function increment() {
 increment()
 
 function save(){
-    let saveFunc = co unt + " - "
+    let saveFunc = count + " - "
     saveEl.innerHTML += saveFunc
     console.log(saveFunc)
 }
