@@ -31,6 +31,7 @@ function save(){
     saveEl.textContent += saveFunc
     console.log(count)
     count = 0
+    countEl.innerText  = 0
 }
 save()
 
@@ -61,5 +62,6 @@ function secondSave(){
     secondSaveEl.textContent += secondSaveFunc
     console.log(secondCount)
     secondCount = 0
+    secondCountEl.innerText  = 0
 }
 secondSave()
