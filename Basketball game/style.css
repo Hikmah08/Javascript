@@ -67,7 +67,8 @@ button{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 0;
+    margin-left: ;
+
   }
   .box-one, .box-two{
     width:400px;
