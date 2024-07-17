@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basketball scoreboard</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box-one">
+        <h2>Team A</h2>
+        <p id="count-el">0</p>
+        <div class="points">
+          <button type="button" class="add" onclick="firstIncrement()">
+            +
+          </button>
+          <button type="button" onclick="firstDoublePoints()">2 Points</button>
+          <button type="button" onclick="firstFourPoints()">4 Points</button>
+          <button type="button" onclick="save()">Save</button>
+        </div>
+        <p id="save-el"></p>
+      </div>
+
+      <div class="box-two">
+        <h2>Team B</h2>
+        <p id="second-count-el">0</p>
+        <div class="points">
+          <button type="button" class="add" onclick=" secondIncrement()">+</button>
+          <button type="button" onclick="secondDoublePoint()">2 Points</button>
+          <button type="button" onclick="secondFourPoint()">4 Points</button>
+          <button type="button" onclick="secondSave()">Save</button>
+        </div>
+        <p id="second-save-el"></p>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
