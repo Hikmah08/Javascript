@@ -67,7 +67,7 @@ button{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-right:10% ;
+    margin-right:30% ;
 
   }
   .box-one, .box-two{
