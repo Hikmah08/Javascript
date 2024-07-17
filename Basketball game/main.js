@@ -5,24 +5,24 @@ let secondSaveEl = document.getElementById("second-save-el")
 let count = 0
 let secondCount = 0
 function firstIncrement(){
-    count+=1
-    countEl.textContent = count
+    count +=1
+    countEl.innerText = count
     console.log(count)
 }
 firstIncrement()
+
 //TWO POINTS
 function firstDoublePoints(){
     count+=2
-    countEl.textContent = count
+    countEl.innerText = count
     console.log(count)
 }
 firstDoublePoints()
 //FOUR POINTS 
 function firstFourPoints(){
     count+=4
-    countEl.textContent = count
+    countEl.innerText = count
     console.log(count)
-    
 }
 firstFourPoints()
 // SAVE 
