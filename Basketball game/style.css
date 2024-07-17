@@ -45,18 +45,31 @@ button {
     margin-top: 20px;
     font-size: 1.5rem;
 }
-@media (max-width:450px){
+@media (max-width:600px){
 .container{
   display: flex;
   flex-direction: column;
-  margin-left: auto;
-  margin-right: auto;
+  align-items: center;
+  margin-right: 10%;
+  max-width: 300px;
 }
 .box-one , .box-two {
-  width: 90vw;
+  width: 300px;
   margin-bottom: 30px;
 }
 button{
-  width:fit
+  width: 80vw;
 }
+}
+
+@media (min-width:600px) {
+  .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 0;
+  }
+  .box-one, .box-two{
+    width:400px;
+  }
 }
