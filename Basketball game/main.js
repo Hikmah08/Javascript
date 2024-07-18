@@ -8,23 +8,28 @@ function firstIncrement(){
     count +=1
     countEl.innerText = count
     console.log(count)
+    firstIncrement()
+    save()
 }
-firstIncrement()
 
 //TWO POINTS
 function firstDoublePoints(){
     count+=2
     countEl.innerText = count
     console.log(count)
+    firstDoublePoints()
+    save()
 }
-firstDoublePoints()
+
 //FOUR POINTS 
 function firstFourPoints(){
     count+=4
     countEl.innerText = count
     console.log(count)
+    firstFourPoints()
+    save()
 }
-firstFourPoints()
+
 // SAVE 
 function save(){
     let saveFunc = count + " - "
@@ -33,7 +38,6 @@ function save(){
     count = 0
     countEl.innerText  = 0
 }
-save()
 
 //SECOND BOX
 function secondIncrement(){
